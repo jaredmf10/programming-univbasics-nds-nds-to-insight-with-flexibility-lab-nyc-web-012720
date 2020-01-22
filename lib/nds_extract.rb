@@ -43,7 +43,7 @@ def movies_with_director_key(name, movies_collection)
   # INPUT:
   # * name: A director's name
   # * movies_collection: An Array of Hashes where each Hash represents a movie
-  AoH_updated_movies = []
+  result = []
   i = 0
   # RETURN:
   # Array of Hashes where each Hash represents a movie; however, they should all have a
@@ -53,7 +53,7 @@ def movies_with_director_key(name, movies_collection)
     result << movie_with_director_name(name, movie_data)
     i += 1
   end
- AoH_updated_movies
+result
 end
 
 
